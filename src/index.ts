@@ -7,7 +7,6 @@ app.get("/", (req, res)=>{
     res.send("Hola Mundo!");
 });
 
-
 app.listen(PORT, ()=>{
     return console.log(`App is listening at port: ${PORT}`);
 })
